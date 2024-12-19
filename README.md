@@ -1,15 +1,14 @@
-# 一、题目介绍
-使用 Python 设计一个具有界面场景自适应能力的分析工具，识别界面操作过程并记录操作信息。
-# 二、 题目要求
-## 1 、基本要求
-（1）识别：采用智能算法正确识别所给视频中鼠标点击界面控件的过程信息，界面控件包含按钮(button)，复选框(checkbox)，单选按钮(RadioButton)及工
-具栏(ToolStrip)四种；
-（2）记录：对视频中鼠标点击操作进行数据记录，记录的数据主要包括时间（要求精确到秒且时间数据延时<1 秒）和点击控件名称，如：按钮控件记录---2023 年 4 月 16 日 08:34:12.000 点击按钮“打开串口”；复选框控件记录---2023年4月16日08:34:12.000 勾选复选框“十六进制显示”；单选按钮控件记录---2023年 4 月 16 日 08:34:12.000 选中单选按钮“工作状态”；工具栏控件记录---2023 年4 月 16 日 08:34:12.000 选中工具栏“窗口”；
-（3）显示：实时显示视频中的点击操作数据；
-（4）实时性：每秒识别操作速率不低于 10 帧（10 张图片）。
-## 2 、发挥部分
-（1）比较：将所记录的数据（仅针对控件名称）与预先提供的记录文件.txt逐一对比，如果数据匹配，则显示该图形用户界面操作生效，若不匹配则显示操作不生效；
-（2）准确率：控件名称准确率（与预先提供的记录文件.txt 对比）>90%；
-（3）实时性：每秒识别速率不低于 20 帧（20 张图片）。
-## 3 、报告
-需提交报告，报告主要内容见评分标准
+# 1. Introduction
+Use Python to design an analysis tool with interface scene adaptation capabilities, identify interface operation processes and record operation information.
+# 2. Question Requirements
+## 1. Basic Requirements
+(1) Identification: Use intelligent algorithms to correctly identify the process information of the mouse clicking the interface controls in the given video. The interface controls include buttons, checkboxes, radio buttons, and tool strips;
+(2) Recording: Record the data of the mouse clicking operation in the video. The recorded data mainly includes time (required to be accurate to seconds and the time data delay is <1 second) and the name of the clicked control, such as: Button control record---April 16, 2023 08:34:12.000 Click the button "Open Serial Port"; Checkbox control record---April 16, 2023 08:34:12.000 Check the checkbox "Hexadecimal Display"; Radio button control record---April 16, 2023 08:34:12.000 Select the radio button "Working Status"; Toolbar Control Record---April 16, 2023 08:34:12.000 Select the toolbar "Window";
+(3) Display: Real-time display of click operation data in the video;
+(4) Real-time: The recognition operation rate is not less than 10 frames (10 pictures) per second.
+## 2. Performance
+(1) Comparison: Compare the recorded data (only for the control name) with the pre-provided record file.txt one by one. If the data matches, the graphical user interface operation is effective. If it does not match, the operation is not effective;
+(2) Accuracy: The control name accuracy (compared with the pre-provided record file.txt) is >90%;
+(3) Real-time: The recognition rate is not less than 20 frames (20 pictures) per second.
+## 3. Report
+A report must be submitted. The main content of the report can be found in the scoring criteria
